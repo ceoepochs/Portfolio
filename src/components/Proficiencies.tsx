@@ -28,7 +28,7 @@ const logoStyle = {
   opacity: 0.7,
 };
 
-export default function LogoCollection() {
+export default function Proficiencies() {
   const { mode, systemMode } = useColorScheme();
   let logos;
   if (mode === 'system') {
@@ -44,14 +44,14 @@ export default function LogoCollection() {
   }
 
   return (
-    <Box id="logoCollection" sx={{ py: 4 }}>
+    <Box id="proficiencies" sx={{ py: 4 }}>
       <Typography
         component="p"
         variant="subtitle2"
         align="center"
         sx={{ color: 'text.secondary' }}
       >
-        Trusted by the best companies
+        Self proclaimed proficiencies
       </Typography>
       <Grid container sx={{ justifyContent: 'center', mt: 0.5, opacity: 0.6 }}>
         {logos.map((logo, index) => (

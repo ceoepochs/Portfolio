@@ -133,7 +133,7 @@ export function MobileLayout({
   );
 }
 
-export default function Features() {
+export default function Projects() {
   const [selectedItemIndex, setSelectedItemIndex] = React.useState(0);
 
   const handleItemClick = (index: number) => {

@@ -3,13 +3,11 @@ import Divider from '@mui/material/Divider';
 import AppTheme from '../theme/AppTheme';
 import AppAppBar from './components/AppAppBar';
 import Hero from './components/Hero';
-import LogoCollection from './components/LogoCollection';
 import Highlights from './components/Highlights';
-import Pricing from './components/Pricing';
-import Features from './components/Features';
+import Projects from './components/Projects';
 import Testimonials from './components/Testimonials';
-import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import Proficiencies from './components/Proficiencies';
 
 export default function App(props: { disableCustomTheme?: boolean }) {
   return (
@@ -19,16 +17,14 @@ export default function App(props: { disableCustomTheme?: boolean }) {
       <AppAppBar />
       <Hero />
       <div>
-        <LogoCollection />
-        <Features />
+        <Proficiencies />
+        <Projects />
         <Divider />
         <Testimonials />
         <Divider />
         <Highlights />
         <Divider />
-        <Pricing />
         <Divider />
-        <FAQ />
         <Divider />
         <Footer />
       </div>
