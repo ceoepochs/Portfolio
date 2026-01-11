@@ -33,7 +33,7 @@ const customShadows: Shadows = [...defaultTheme.shadows];
 export const brand = {
   50: 'hsl(210, 100%, 95%)',
   100: 'hsl(210, 100%, 92%)',
-  200: 'hsl(210, 100%, 80%)',
+  200: 'rgb(153, 204, 255)',
   300: 'hsl(210, 100%, 65%)',
   400: 'hsl(210, 98%, 48%)',
   500: 'hsl(210, 98%, 42%)',
@@ -52,6 +52,7 @@ export const gray = {
   500: 'hsl(220, 20%, 42%)',
   600: 'hsl(220, 20%, 35%)',
   700: 'hsl(220, 20%, 25%)',
+  750: 'hsl(225, 8%, 10%)',
   800: 'hsl(220, 30%, 6%)',
   900: 'hsl(220, 35%, 3%)',
 };
@@ -323,7 +324,7 @@ export const colorSchemes = {
       },
       divider: alpha(gray[700], 0.6),
       background: {
-        default: gray[900],
+        default: gray[750],
         paper: 'hsl(220, 30%, 7%)',
       },
       text: {
