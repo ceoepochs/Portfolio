@@ -124,7 +124,7 @@ export default function Hero() {
           </Typography>
         </Stack>
         <StyledBox id="developer">
-          <Spline scene="https://prod.spline.design/IAyRHpV-sLLCNOt9/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/7X0Vd8egRE7aWSr2/scene.splinecode" />
         </StyledBox>
       </Container>
     </Box>
