@@ -5,15 +5,6 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import Spline from '@splinetool/react-spline';
 
-const StyledBox = styled('div')(({ theme }) => ({
-  position: 'sticky',
-  top: 0,
-  alignSelf: 'center',
-  width: '100%',
-  height: '100vh',
-  pointerEvents: 'none'
-}));
-
 export default function Hero() {
   return (
     <Box
@@ -130,9 +121,18 @@ export default function Hero() {
             width: '100%',
           }}
         >
-          <StyledBox id="developer">
+          <Box id="developer"
+            sx={{
+              position: 'sticky',
+              top: 0,
+              alignSelf: 'center',
+              width: '100%',
+              height: '100vh',
+              pointerEvents: 'none'
+            }}
+          >
             <Spline scene="https://prod.spline.design/IAyRHpV-sLLCNOt9/scene.splinecode" />
-          </StyledBox>
+          </Box>
         </Box>
     </Box>
   );
