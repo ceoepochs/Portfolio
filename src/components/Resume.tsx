@@ -1,6 +1,8 @@
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
+import Proficiencies from './Proficiencies';
+import Spline from '@splinetool/react-spline';
 
 export default function Resume() {
   return (
@@ -14,11 +16,12 @@ export default function Resume() {
         flexDirection: 'column',
         alignItems: 'center',
         gap: { xs: 3, sm: 6 },
+        height: 'calc(2000px + 100vh)',
       }}
     >
       <Box
         sx={{
-          width: { sm: '100%', md: '60%' },
+          width: '100%',
           textAlign: { sm: 'left', md: 'center' },
         }}
       >
@@ -30,11 +33,26 @@ export default function Resume() {
         >
           Resume
         </Typography>
-        <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-          See what our customers love about our products. Discover how we excel in
-          efficiency, durability, and satisfaction. Join us for quality, innovation,
-          and reliable support.
-        </Typography>
+        <Proficiencies />
+      </Box>
+      <Box
+        sx={{
+          position: 'relative',
+          flex: 1,
+          width: '100%',
+        }}
+      >
+        <Box id="developer"
+          sx={{
+            position: 'sticky',
+            top: 0,
+            alignSelf: 'center',
+            width: '100%',
+            height: '100vh',
+          }}
+        >
+          <Spline scene="https://prod.spline.design/PQNkpOVTiiBehOAz/scene.splinecode" />
+        </Box>
       </Box>
     </Container>
   );

@@ -45,14 +45,6 @@ export default function Proficiencies() {
 
   return (
     <Box id="proficiencies" sx={{ py: 4 }}>
-      <Typography
-        component="p"
-        variant="subtitle2"
-        align="center"
-        sx={{ color: 'text.secondary' }}
-      >
-        Proficiencies
-      </Typography>
       <Grid container sx={{ justifyContent: 'center', mt: 0.5, opacity: 0.6 }}>
         {logos.map((logo, index) => (
           <Grid key={index}>
