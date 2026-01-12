@@ -1,5 +1,4 @@
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import { useColorScheme } from '@mui/material/styles';
 
