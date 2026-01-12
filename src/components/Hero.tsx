@@ -1,3 +1,4 @@
+import { useTheme } from '@mui/material';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
@@ -114,25 +115,25 @@ export default function Hero() {
         </Stack>
       </Container>
       <Box
+        sx={{
+          position: 'relative',
+          flex: 1,
+          width: '100%',
+        }}
+      >
+        <Box id="developer"
           sx={{
-            position: 'relative',
-            flex: 1,
+            position: 'sticky',
+            top: 0,
+            alignSelf: 'center',
             width: '100%',
+            height: '100vh',
+            pointerEvents: 'none'
           }}
         >
-          <Box id="developer"
-            sx={{
-              position: 'sticky',
-              top: 0,
-              alignSelf: 'center',
-              width: '100%',
-              height: '100vh',
-              pointerEvents: 'none'
-            }}
-          >
-            <Spline scene="https://prod.spline.design/IAyRHpV-sLLCNOt9/scene.splinecode" />
-          </Box>
+          <Spline scene="https://prod.spline.design/IAyRHpV-sLLCNOt9/scene.splinecode" />
         </Box>
+      </Box>
     </Box>
   );
 }
