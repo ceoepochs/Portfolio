@@ -44,7 +44,7 @@ export default function Resume() {
         <Box
           sx={{
             flex: 1,
-            height: '100vh'
+            height: { xs: '100vh', md: '80vh' }
           }}
         >
             <Spline scene="https://prod.spline.design/PQNkpOVTiiBehOAz/scene.splinecode" />
@@ -52,7 +52,7 @@ export default function Resume() {
         <Box
           sx={{
             flex: 1,
-            height: '100vh'
+            height: { xs: '100vh', md: '80vh' }
           }}
         >
             <Spline scene="https://prod.spline.design/qWc2OYsIAA4MkK8G/scene.splinecode" />
