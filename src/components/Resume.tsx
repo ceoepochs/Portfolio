@@ -4,7 +4,6 @@ import Container from '@mui/material/Container';
 import Spline from '@splinetool/react-spline';
 import { Button } from '@mui/material';
 import { Download } from '@mui/icons-material';
-import { useState } from 'react';
 
 export default function Resume() {
   return (
