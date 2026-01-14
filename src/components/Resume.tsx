@@ -44,20 +44,18 @@ export default function Resume() {
         <Box
           sx={{
             flex: 1,
-            minHeight: '100vh',
-            position: 'relative',
+            height: '100vh'
           }}
         >
-          <Spline scene="https://prod.spline.design/PQNkpOVTiiBehOAz/scene.splinecode" />
+            <Spline scene="https://prod.spline.design/PQNkpOVTiiBehOAz/scene.splinecode" />
         </Box>
         <Box
           sx={{
             flex: 1,
-            minHeight: '100vh',
-            position: 'relative',
+            height: '100vh'
           }}
         >
-          <Spline scene="https://prod.spline.design/qWc2OYsIAA4MkK8G/scene.splinecode" />
+            <Spline scene="https://prod.spline.design/qWc2OYsIAA4MkK8G/scene.splinecode" />
         </Box>
       </Box>
       <Button variant="outlined" component="a" href="/Colton Osterlund Resume.pdf" download startIcon={<Download />} sx={{ mt: 4 }}>
