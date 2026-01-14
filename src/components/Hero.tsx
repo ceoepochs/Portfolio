@@ -184,7 +184,7 @@ export default function Hero() {
                     transition: 'opacity 0.2s linear',
                   }}
                 >
-                  Hi, my name is Colton
+                  Hi, my name is Colton.
                 </Typography>
                 <Typography
                   variant="h3"
@@ -195,7 +195,7 @@ export default function Hero() {
                     transition: 'opacity 0.2s linear',
                   }}
                 >
-                  I'm a full-stack software engineer who has written and deployed production level code for clients in 10+ different industries
+                  I'm a full-stack software engineer who has written and deployed production level code for clients in 10+ different industries.
                 </Typography>
                 <Typography
                   variant="h3"
@@ -206,7 +206,7 @@ export default function Hero() {
                     transition: 'opacity 0.2s linear',
                   }}
                 >
-                  I take pride in my curiosity and I'm passionate about continually developing my skills and learning new technologies
+                  I'm passionate about continually developing my skills and learning new technologies.
                 </Typography>
                 <Typography
                   variant="h3"
@@ -217,7 +217,7 @@ export default function Hero() {
                     transition: 'opacity 0.2s linear',
                   }}
                 >
-                  Welcome to my portfolio
+                  Welcome.
                 </Typography>
               </Box>
             </Box>
