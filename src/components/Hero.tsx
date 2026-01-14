@@ -206,7 +206,7 @@ export default function Hero() {
                     transition: 'opacity 0.2s linear',
                   }}
                 >
-                  I'm passionate about the ongoing pursuit of knowledge, continually developing my skills and learning new technologies.
+                  I'm passionate about the ongoing pursuit of knowledge, continually developing my skills to solve new challenges.
                 </Typography>
                 <Typography
                   variant="h3"
@@ -217,7 +217,7 @@ export default function Hero() {
                     transition: 'opacity 0.2s linear',
                   }}
                 >
-                  Continue scrolling to see more of my work.
+                  Keep scrolling to see more.
                 </Typography>
               </Box>
             </Box>
